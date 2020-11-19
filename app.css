@@ -1,0 +1,27 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 480px;
+    margin: auto;
+    
+}
+.container input{
+    padding: 15px;
+    font-size: 18px;
+}
+.container button{
+    padding: 18px;
+    margin: 10px;
+}
+#toDoList p{
+    background: #9ee99e;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#toDoList p.closed {
+    background: #f38383;
+    text-decoration: line-through;
+}
